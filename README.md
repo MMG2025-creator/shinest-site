@@ -1,60 +1,69 @@
 # SHINEST — Site web
 
-## Présentation
-SHINEST est une maison d’édition de solutions numériques indépendante. La marque porte une vision de l’innovation et de la création de valeur ; les applications propriétaires constituent des réalisations concrètes et autonomes, chacune étant sa propre vitrine.
+## État courant — version instable (11 novembre 2026)
 
-Site public : https://shinest.app  
-Dépôt Git : https://github.com/MMG2025-creator/shinest-site  
-Hébergement : Vercel — projet `shinest-site`
+- **Version de travail :** `unstable-2026-11-11`
+- **Statut :** déployée en production, mais non déclarée stable ni validée comme version finale.
+- **Site public :** https://shinest.app
+- **Dépôt Git :** https://github.com/MMG2025-creator/shinest-site
+- **Branche :** `main`
+- **Commit de référence :** `727aa852bf4a2b6dbe455cad80471ddcd10d389a`
+- **Hébergement :** Vercel — projet `shinest-site`
 
-## Positionnement stratégique validé
-- SHINEST n’est ni une agence généraliste ni un prestataire informatique.
-- SHINEST édite et développe des solutions numériques propriétaires.
-- La démarche s’appuie sur la Blue Ocean Strategy, dont le fondateur est practitioner : identifier des besoins insuffisamment adressés, repenser la valeur proposée et ouvrir de nouveaux espaces de création de valeur.
-- Les applications ne doivent pas devenir le message central du site corporate. Elles sont présentées comme des réalisations qui illustrent la vision de SHINEST.
+## État réel du site publié
 
-## Proposition de valeur
-> Imaginer de nouvelles opportunités. Construire les solutions de demain.
+Le site est une page vitrine SHINEST en français, avec une direction visuelle claire et contemporaine, une mise en page responsive et des interactions de navigation.
 
-SHINEST explore de nouveaux espaces de création de valeur, identifie des besoins insuffisamment adressés et transforme ces opportunités en applications concrètes.
+Sections actuellement présentes :
+1. Accueil — « Imaginer de nouvelles opportunités. Construire les solutions de demain. »
+2. Bloc de présentation — vision indépendante, produits propriétaires, valeur mesurable.
+3. Notre vision — innovation, création de valeur et Blue Ocean Strategy.
+4. Trois piliers — Explorer, Concevoir, Développer.
+5. Nos réalisations — BEP et MakeMeGlow.
+6. Notre approche — comprendre, différencier, expérimenter.
+7. Bloc Blue Ocean Strategy.
+8. Conclusion et pied de page.
 
-La démarche repose sur trois piliers : **Explorer · Concevoir · Développer**.
+**Formulation explicitement exclue :** « Maison d’édition de solutions numériques indépendante ». Elle a été supprimée de l’ensemble du site et ne doit pas être réintroduite.
 
-## Architecture éditoriale cible
-1. **Accueil** — promesse et positionnement de SHINEST.
-2. **Notre vision** — innovation, Blue Ocean Strategy, création de valeur.
-3. **Nos réalisations** — présentation courte de BEP et MakeMeGlow, avec renvoi vers leurs propres sites/applications.
-4. **Notre approche** — Explorer, Concevoir, Développer.
-5. **Contact** — partenariats et échanges.
+## Identité visuelle et logo
 
-## Applications propriétaires
-- **BEP — Budget Épargne Programmé** : solution dédiée à la structuration des finances personnelles. Présentation concise sur SHINEST, sans remplacer sa propre vitrine.
-- **MakeMeGlow** : solution dédiée à l’univers esthétique et à la progression personnelle. Présentation concise sur SHINEST, sans remplacer sa propre vitrine.
+- Le logo transmis par le fondateur est utilisé dans le header et le footer.
+- Le symbole est également défini comme favicon et image de partage.
+- L’image du symbole est servie depuis l’asset Vercel : `https://dmmcy0pwk6bqi.cloudfront.net/ff2590d65d2b175116ca935b798e6f86f7d717ad`.
+- Le mot « Shinest » affiché à côté du symbole est actuellement rendu en Georgia (serif) dans le HTML ; le logotype complet original n’est donc pas encore intégré comme une seule image.
 
-## État du site observé
-Le site public existant présente actuellement le titre « Le potentiel ne se devine pas. Il se construit. », une introduction centrée sur les applications BEP et MakeMeGlow, puis les sections vision, solutions, approche et pourquoi SHINEST. Le repositionnement éditorial décrit ci-dessus est validé, mais sa mise en œuvre sur le site public reste à effectuer et à vérifier.
+## Réalisations présentées
 
-## Principes de conception
-- Conserver le logo SHINEST actuel.
-- Préserver une identité visuelle premium, sobre et cohérente avec le logo.
-- Donner la priorité à la vision de l’éditeur plutôt qu’à la promotion des applications.
-- Garder des liens clairs vers les vitrines autonomes des applications.
-- Vérifier systématiquement le rendu mobile et desktop, les liens, l’accessibilité et les métadonnées SEO.
+- **BEP** — présenté comme une expérience numérique de structuration du budget et des dépenses. Lien actuel : https://bep-mobile.onrender.com/
+- **MakeMeGlow** — présenté comme un univers beauté et progression personnelle. La page indique que sa présentation publique est en préparation.
 
-## État technique connu
-- Dépôt GitHub : `MMG2025-creator/shinest-site`
-- Branche par défaut : `main`
-- Le dépôt a été trouvé vide lors de la vérification du 11 novembre 2026 (taille GitHub : 0).
-- Le site en production est hébergé séparément sur Vercel, domaine `shinest.app`.
-- Le code actuellement déployé sur Vercel ne doit pas être remplacé par une page blanche. Il faut d’abord récupérer et versionner la source complète, puis effectuer les modifications dans Git.
+## Éléments techniques présents
 
-## Prochaines étapes
-- [ ] Récupérer la source complète actuellement déployée sur Vercel.
-- [ ] L’ajouter au dépôt GitHub sans perte de contenu ni d’éléments visuels.
-- [ ] Repositionner les textes et l’architecture selon la stratégie validée.
-- [ ] Tester les liens, les interactions, le responsive et les métadonnées.
-- [ ] Connecter le dépôt Git à Vercel et vérifier les déploiements Preview.
-- [ ] Publier en production uniquement après validation technique et visuelle.
+- Fichier de page : `src/index.html` (également déployé à la racine sous `index.html`).
+- HTML, CSS et JavaScript intégrés dans une page statique.
+- Navigation fixe, menu mobile interactif, défilement fluide et animations d’apparition avec prise en compte de `prefers-reduced-motion`.
+- Métadonnées SEO et Open Graph.
+- Déploiement Vercel en production sur `shinest.app`.
 
-## Historique
-- **11 novembre 2026** — validation du repositionnement SHINEST comme maison d’édition de solutions numériques indépendante, avec la Blue Ocean Strategy comme fondement de la démarche. Confirmation que les applications doivent rester leurs propres vitrines. Logo actuel conservé.
+## Contrôles effectués
+
+- Déploiement Vercel marqué `READY`.
+- Vérification du domaine public : réponse HTTP 200.
+- Vérification du HTML publié : la formulation exclue n’est plus présente.
+- Les vérifications visuelles exhaustives sur appareils réels, l’accessibilité approfondie et les tests fonctionnels complets restent à mener.
+
+## Historique récent
+
+- **11 novembre 2026** — refonte éditoriale publiée sur le domaine de production.
+- **11 novembre 2026** — intégration du symbole du logo fourni, dans le header, le footer, le favicon et les métadonnées de partage.
+- **11 novembre 2026** — suppression globale de la formulation explicitement refusée.
+- **11 novembre 2026** — état enregistré comme **version instable** : le site est en ligne, mais ne doit pas être considéré comme une version stable ou définitivement validée.
+
+## Prochaines vérifications
+
+- [ ] Intégrer le logotype original complet, sans recomposer le mot-symbole en typographie de substitution.
+- [ ] Vérifier visuellement le rendu mobile et desktop.
+- [ ] Tester tous les liens et interactions.
+- [ ] Réaliser un contrôle d’accessibilité et des métadonnées SEO/Open Graph.
+- [ ] Effectuer une validation finale avant de déclarer une version stable.
