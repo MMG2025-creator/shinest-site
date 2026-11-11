@@ -24,7 +24,7 @@ Sections actuellement présentes :
 7. Bloc Blue Ocean Strategy.
 8. Conclusion et pied de page.
 
-**Formulation explicitement exclue :** « Maison d’édition de solutions numériques indépendante ». Elle a été supprimée de l’ensemble du site et ne doit pas être réintroduite.
+L’ancienne formulation de positionnement a été retirée de l’ensemble du site et ne doit pas être réintroduite.
 
 ## Identité visuelle et logo
 
